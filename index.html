@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intro to Cybersecurity</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #0A0E1A; color: #fff; }
+    nav { background: #060912; padding: 16px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #00F5FF33; }
+    nav h1 { color: #00F5FF; font-size: 20px; }
+    nav a { color: #ccc; text-decoration: none; margin-left: 24px; font-size: 14px; }
+    nav a:hover { color: #00F5FF; }
+    .hero { text-align: center; padding: 100px 40px; background: linear-gradient(135deg, #0A0E1A, #0d1f3c); }
+    .hero h2 { font-size: 48px; color: #00F5FF; margin-bottom: 16px; }
+    .hero p { font-size: 18px; color: #aaa; max-width: 600px; margin: 0 auto 32px; }
+    .btn { background: #00F5FF; color: #0A0E1A; padding: 12px 32px; border-radius: 6px; text-decoration: none; font-weight: bold; }
+    .section { padding: 60px 40px; max-width: 1000px; margin: 0 auto; }
+    .section h3 { color: #00F5FF; font-size: 28px; margin-bottom: 16px; }
+    .section p { color: #bbb; line-height: 1.8; }
+    .cards { display: flex; gap: 24px; margin-top: 40px; flex-wrap: wrap; }
+    .card { background: #111827; border: 1px solid #00F5FF33; border-radius: 12px; padding: 28px; flex: 1; min-width: 220px; }
+    .card h4 { color: #00F5FF; margin-bottom: 10px; }
+    .card p { color: #aaa; font-size: 14px; }
+    .stat-bar { background: #060912; padding: 50px 40px; text-align: center; border-top: 1px solid #00F5FF22; border-bottom: 1px solid #00F5FF22; }
+    .stat-bar h3 { color: #00F5FF; font-size: 22px; margin-bottom: 30px; }
+    .stats { display: flex; justify-content: center; gap: 60px; flex-wrap: wrap; }
+    .stat h2 { font-size: 42px; color: #00F5FF; }
+    .stat p { color: #aaa; font-size: 13px; }
+    footer { text-align: center; padding: 24px; color: #555; font-size: 13px; border-top: 1px solid #ffffff11; }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>🔐 IntroToCybersec</h1>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="threats.html">Cyber Threats</a>
+      <a href="resources.html">Resources</a>
+    </div>
+  </nav>
 
+  <div class="hero">
+    <h2>Welcome to the World of Cybersecurity</h2>
+    <p>Protecting the digital world — one system at a time. Learn the fundamentals, explore threats, and discover your path.</p>
+    <a href="threats.html" class="btn">Explore Now</a>
+  </div>
+
+  <div class="section">
+    <h3>What is Cybersecurity?</h3>
+    <p>Cybersecurity is the practice of protecting computers, networks, programs, and data from digital attacks, unauthorized access, and damage. It ensures the confidentiality, integrity, and availability of information in our increasingly connected world.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h4>🔒 Network Security</h4>
+        <p>Protecting data as it travels across networks from interception and attacks.</p>
+      </div>
+      <div class="card">
+        <h4>🛡️ Ethical Hacking</h4>
+        <p>Testing systems to find and fix vulnerabilities before malicious hackers do.</p>
+      </div>
+      <div class="card">
+        <h4>⚠️ Malware & Threats</h4>
+        <p>Understanding viruses, ransomware, phishing, and social engineering attacks.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="stat-bar">
+    <h3>Why Cybersecurity Matters</h3>
+    <div class="stats">
+      <div class="stat"><h2>$10.5T</h2><p>Annual global cybercrime cost</p></div>
+      <div class="stat"><h2>39s</h2><p>A cyberattack occurs every 39 seconds</p></div>
+      <div class="stat"><h2>95%</h2><p>Of breaches caused by human error</p></div>
+    </div>
+  </div>
+
+  <footer>© 2026 IntroToCybersec | sites.google.com/view/introtocybersec</footer>
+</body>
+</html>
